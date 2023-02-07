@@ -33,7 +33,7 @@ jobs:
     
     - name: Test with pytest
       run: |
-        pytest
+        pytest --cov=src
         
     - name: Monitor coverage
       uses: slavcodev/coverage-monitor-action@v1
