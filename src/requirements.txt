@@ -1,0 +1,7 @@
+flask
+flask-migrate
+flask-sqlalchemy
+gunicorn
+psycopg2-binary
+python-decouple
+python-dotenv
